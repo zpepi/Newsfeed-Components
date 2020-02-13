@@ -134,12 +134,12 @@ article.appendChild(expand);
 //content
 title.textContent = newsData.title;
 date.textContent = newsData.date;
-p1.textContent = newsData.p1;
-p2.textContent = newsData.p2;
-p3.textContent = newsData.p3;
+p1.textContent = newsData.firstParagraph;
+p2.textContent = newsData.secondParagraph;
+p3.textContent = newsData.thirdParagraph;
 expand.textContent = '\u25bc';
 
-//styles
+//classes
 article.classList.add('article');
 title.classList.add('h2');
 date.classList.add('date');
